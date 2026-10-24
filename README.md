@@ -53,6 +53,8 @@ lake build
 lake env lean verification/AxiomAudit.lean
 ```
 
+CI note (2026-10-24): the GitHub Actions workflow is in place, but GitHub has not started the job, because the account's Actions billing or spending limit is blocking runs on private repos. Local `lake build` and the axiom audit pass.
+
 See `MATHLIB_STATE.md` for how this sits against current Mathlib and where the older libraries
 duplicate Mathlib or need updates.
 

@@ -21,7 +21,7 @@ Toolchain pins of the existing repos (read from each `lean-toolchain`, not chang
 
 | Pin | Repos |
 |---|---|
-| v4.34.1 | iqgt-grassmannian-lean (main and PR #1 branch), dirac-time-lean, nonnormality-connection-energy-lean, relational-atlas-lean, coboundary-k3, electron-screening, emergent-transport, event-horizon, filament-fracture, foft, matter-at-a-scale, price-of-a-direction, ramanujan-challenge, spectral-stability, spectral-stress, suns, three-body, votkp, what-russell-saw, what-tesla-saw, what-transport-keeps |
+| v4.34.1 | iqgt-grassmannian-lean (main and PR #1 branch), -connection-energy-lean, dirac-time-lean, nonnormality-connection-energy-lean, relational-atlas-lean, coboundary-k3, electron-screening, emergent-transport, event-horizon, filament-fracture, foft, matter-at-a-scale, price-of-a-direction, ramanujan-challenge, spectral-stability, spectral-stress, suns, three-body, votkp, what-russell-saw, what-tesla-saw, what-transport-keeps |
 | v4.33.0 | light-ledger-lean, gravity-ledger-lean, upg-lean, yang-mills-lean, arithmetic-kakeya-finite-bridges, coxeter-rank2, elemental-peeling, offset, small-diophantine, square-case |
 | v4.29.1 | acwindow-lean (private) |
 | v4.28.0 | sqrt-lower-bound-lean |
