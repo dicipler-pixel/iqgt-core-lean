@@ -1,0 +1,13 @@
+Copyright (c) 2026 Jeromie Beasley
+
+SPDX-License-Identifier: MIT OR Apache-2.0
+
+The code and proofs in this repository are dual-licensed under the MIT License OR the
+Apache License, Version 2.0, at the licensee's option:
+
+  * Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0)
+  * MIT License (https://opensource.org/license/mit)
+
+This matches the licensing of Jeromie Beasley's other Lean libraries (for example
+nonnormality-connection-energy-lean). Lean file headers that read "Released under Apache 2.0
+license as described in the file LICENSE" are covered by this dual license.

@@ -1,0 +1,58 @@
+cff-version: 1.2.0
+message: "If you use these Lean proofs, please cite them as below."
+title: "IQGT core: the intrinsic quantum geometric tensor as the primitive geometry (Lean 4 + Mathlib)"
+authors:
+  - family-names: "Beasley"
+    given-names: "Jeromie"
+    orcid: "https://orcid.org/0009-0006-4645-5643"
+version: 0.1.0
+date-released: 2026-10-24
+license:
+  - MIT
+  - Apache-2.0
+repository-code: "https://github.com/dicipler-pixel/iqgt-core-lean"
+keywords:
+  - Lean 4
+  - Mathlib
+  - formal verification
+  - quantum geometric tensor
+  - Grassmannian
+  - projector geometry
+references:
+  - type: article
+    title: "Intrinsic Quantum Geometric Tensor on the Grassmannian and Spectral Lower Bounds on Dissipation"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+        orcid: "https://orcid.org/0009-0006-4645-5643"
+    doi: "10.5281/zenodo.20768258"
+  - type: article
+    title: "Light Keeps the Ledger"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+    doi: "10.5281/zenodo.22123115"
+  - type: article
+    title: "The Ledger Outlives the Metric"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+    doi: "10.5281/zenodo.22023237"
+  - type: article
+    title: "Universal Projector Geometry from Electrical Measurements"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+    doi: "10.5281/zenodo.21305024"
+  - type: article
+    title: "The Dirac Time of the Gigantefermion"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+    doi: "10.5281/zenodo.22978630"
+  - type: article
+    title: "Non-Normality Is Connection Energy"
+    authors:
+      - family-names: "Beasley"
+        given-names: "Jeromie"
+    doi: "10.5281/zenodo.22803572"

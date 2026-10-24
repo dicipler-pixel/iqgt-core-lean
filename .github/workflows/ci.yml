@@ -1,0 +1,29 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build and verify
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      # Installs elan + the pinned toolchain, fetches the Mathlib cache, runs `lake build`.
+      - uses: leanprover/lean-action@v1
+
+      - name: No sorry / admit / axiom in the library sources
+        run: |
+          if grep -rnE '\bsorry\b|\badmit\b|^\s*axiom\s' IQGTCore IQGTCore.lean; then
+            echo "::error::found sorry/admit/axiom in sources"; exit 1
+          fi
+
+      - name: Axiom audit (only propext, Classical.choice, Quot.sound allowed)
+        run: lake env lean verification/AxiomAudit.lean
