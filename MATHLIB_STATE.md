@@ -50,7 +50,7 @@ Mathlib drift. Nothing was pushed to any of these repos.
 | sqrt-lower-bound-lean (pinned v4.28) | 6/30 | 1/1 | **genuine breaks:** `RectangularCore.lean` (rewrite at 75, type mismatch at 397–398) and `EntropyLaw.lean:71`; the remaining failures cascade from those; 164 deprecation mentions |
 | what-russell-saw-lean | 2/4 | 3/3 | `Audit` and `RussellPhyslib` need other packages (`RussellRebuild`, `Physlib`) *(setup)* |
 | acwindow-lean | 1/3 | – | `AC` module prefix *(setup)* |
-| -connection-energy-lean | see map doc | | compiled separately |
+| -connection-energy-lean | 2/2 | 3/3 | |
 
 No file in any repo produced a `sorry` warning in this run.
 
